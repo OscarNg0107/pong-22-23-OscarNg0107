@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/GameTechYear1/C++/pong/pong-22-23-OscarNg0107/cmake-build-debug/
+cmake_ninja_workdir = C$:/C++/pong-22-23-OscarNg0107/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target PongSFML
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/GameTechYear1/C++/pong/pong-22-23-OscarNg0107/cmake-bu
 
 build cmake_object_order_depends_target_PongSFML: phony || CMakeFiles/PongSFML.dir
 
-build CMakeFiles/PongSFML.dir/src/main.cpp.obj: CXX_COMPILER__PongSFML_Debug D$:/GameTechYear1/C++/pong/pong-22-23-OscarNg0107/src/main.cpp || cmake_object_order_depends_target_PongSFML
+build CMakeFiles/PongSFML.dir/src/main.cpp.obj: CXX_COMPILER__PongSFML_Debug C$:/C++/pong-22-23-OscarNg0107/src/main.cpp || cmake_object_order_depends_target_PongSFML
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\PongSFML.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
@@ -59,7 +59,7 @@ build CMakeFiles/PongSFML.dir/src/main.cpp.obj: CXX_COMPILER__PongSFML_Debug D$:
   TARGET_COMPILE_PDB = CMakeFiles\PongSFML.dir\
   TARGET_PDB = PongSFML.pdb
 
-build CMakeFiles/PongSFML.dir/src/Game.cpp.obj: CXX_COMPILER__PongSFML_Debug D$:/GameTechYear1/C++/pong/pong-22-23-OscarNg0107/src/Game.cpp || cmake_object_order_depends_target_PongSFML
+build CMakeFiles/PongSFML.dir/src/Game.cpp.obj: CXX_COMPILER__PongSFML_Debug C$:/C++/pong-22-23-OscarNg0107/src/Game.cpp || cmake_object_order_depends_target_PongSFML
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\PongSFML.dir\src\Game.cpp.obj.d
   FLAGS = -g -std=gnu++14
@@ -69,7 +69,7 @@ build CMakeFiles/PongSFML.dir/src/Game.cpp.obj: CXX_COMPILER__PongSFML_Debug D$:
   TARGET_COMPILE_PDB = CMakeFiles\PongSFML.dir\
   TARGET_PDB = PongSFML.pdb
 
-build CMakeFiles/PongSFML.dir/src/Vector.cpp.obj: CXX_COMPILER__PongSFML_Debug D$:/GameTechYear1/C++/pong/pong-22-23-OscarNg0107/src/Vector.cpp || cmake_object_order_depends_target_PongSFML
+build CMakeFiles/PongSFML.dir/src/Vector.cpp.obj: CXX_COMPILER__PongSFML_Debug C$:/C++/pong-22-23-OscarNg0107/src/Vector.cpp || cmake_object_order_depends_target_PongSFML
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\PongSFML.dir\src\Vector.cpp.obj.d
   FLAGS = -g -std=gnu++14
@@ -79,7 +79,7 @@ build CMakeFiles/PongSFML.dir/src/Vector.cpp.obj: CXX_COMPILER__PongSFML_Debug D
   TARGET_COMPILE_PDB = CMakeFiles\PongSFML.dir\
   TARGET_PDB = PongSFML.pdb
 
-build CMakeFiles/PongSFML.dir/src/Ball.cpp.obj: CXX_COMPILER__PongSFML_Debug D$:/GameTechYear1/C++/pong/pong-22-23-OscarNg0107/src/Ball.cpp || cmake_object_order_depends_target_PongSFML
+build CMakeFiles/PongSFML.dir/src/Ball.cpp.obj: CXX_COMPILER__PongSFML_Debug C$:/C++/pong-22-23-OscarNg0107/src/Ball.cpp || cmake_object_order_depends_target_PongSFML
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\PongSFML.dir\src\Ball.cpp.obj.d
   FLAGS = -g -std=gnu++14
@@ -89,7 +89,7 @@ build CMakeFiles/PongSFML.dir/src/Ball.cpp.obj: CXX_COMPILER__PongSFML_Debug D$:
   TARGET_COMPILE_PDB = CMakeFiles\PongSFML.dir\
   TARGET_PDB = PongSFML.pdb
 
-build CMakeFiles/PongSFML.dir/src/Paddle.cpp.obj: CXX_COMPILER__PongSFML_Debug D$:/GameTechYear1/C++/pong/pong-22-23-OscarNg0107/src/Paddle.cpp || cmake_object_order_depends_target_PongSFML
+build CMakeFiles/PongSFML.dir/src/Paddle.cpp.obj: CXX_COMPILER__PongSFML_Debug C$:/C++/pong-22-23-OscarNg0107/src/Paddle.cpp || cmake_object_order_depends_target_PongSFML
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\PongSFML.dir\src\Paddle.cpp.obj.d
   FLAGS = -g -std=gnu++14
@@ -124,7 +124,7 @@ build PongSFML.exe: CXX_EXECUTABLE_LINKER__PongSFML_Debug CMakeFiles/PongSFML.di
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\GameTechYear1\C++\pong\pong-22-23-OscarNg0107\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\C++\pong-22-23-OscarNg0107\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -135,7 +135,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\GameTechYear1\C++\pong\pong-22-23-OscarNg0107\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\GameTechYear1\C++\pong\pong-22-23-OscarNg0107 -BD:\GameTechYear1\C++\pong\pong-22-23-OscarNg0107\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\C++\pong-22-23-OscarNg0107\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\C++\pong-22-23-OscarNg0107 -BC:\C++\pong-22-23-OscarNg0107\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -153,7 +153,7 @@ build PongSFML: phony PongSFML.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/GameTechYear1/C++/pong/pong-22-23-OscarNg0107/cmake-build-debug
+# Folder: C:/C++/pong-22-23-OscarNg0107/cmake-build-debug
 
 build all: phony PongSFML.exe
 

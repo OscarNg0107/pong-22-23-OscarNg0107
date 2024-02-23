@@ -1,0 +1,7 @@
+# ninja log v5
+13	79	7304003569537276	CMakeFiles/PongSFML.dir/src/Vector.cpp.obj	3a181e73f1f07712
+17	340	7304003572137141	CMakeFiles/PongSFML.dir/src/Paddle.cpp.obj	7842ffd3f425c4aa
+9	345	7304003572196940	CMakeFiles/PongSFML.dir/src/Ball.cpp.obj	821a8252955720eb
+7	370	7304003572435454	CMakeFiles/PongSFML.dir/src/main.cpp.obj	55db228e889c2f6c
+1	442	7304003573158145	CMakeFiles/PongSFML.dir/src/Game.cpp.obj	bbc182481243cdd4
+442	1149	7304003580165797	PongSFML.exe	e23400a57a4e7552
